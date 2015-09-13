@@ -1,0 +1,14 @@
+[package]
+name = "chatting_client"
+version = "0.1.0"
+authors = ["SadangHobbits <sadang.hobbits@gmail.com>"]
+
+[dependencies]
+bincode = "*"
+rustc-serialize = "*"
+
+[dependencies.client]
+path = "../components/client"
+
+[dependencies.header]
+path = "../components/header"

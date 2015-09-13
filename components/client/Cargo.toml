@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+authors = ["SadangHobbits <sadang.hobbits@gmail.com>"]
+
+[dependencies]
+bincode = "*"
+rustc-serialize = "*"
+
+[dependencies.header]
+path = "../header"

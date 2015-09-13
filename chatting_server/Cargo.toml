@@ -1,0 +1,10 @@
+[package]
+name = "chatting_server"
+version = "0.1.0"
+authors = ["SadangHobbits <sadang.hobbits@gmail.com>"]
+
+[dependencies.client]
+path = "../components/client"
+
+[dependencies.event_handler]
+path = "../components/event_handler"
